@@ -19,6 +19,8 @@ This repository contains the solution of the challenge proposed by the recruiter
 
 ## Instructions
 
+It's recommended to run with a virtual enviroment. Install the requirements from the requirements.txt file
+
 Execute the main.py file to train and save the model with
 `python main.py`
 
