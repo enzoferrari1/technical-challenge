@@ -14,7 +14,8 @@ class CustomRandomForestModel():
         if loss == "MSE":
             self.loss = mean_squared_error
         self.cross_val_n = cross_val_n
-        self.X_train, self.X_test, self.y_train, self.y_test = data
+        if data:
+            self.X_train, self.X_test, self.y_train, self.y_test = data
         self.grid_search = None
         self.best_rf_regressor = None
         
